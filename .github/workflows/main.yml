@@ -2,7 +2,7 @@ name: chi
 
 on:
   schedule:
-    - cron: '17 05 * * *'
+    - cron: '10 06 * * *'
 
 jobs:
   build:
