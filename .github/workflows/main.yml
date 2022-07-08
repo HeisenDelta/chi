@@ -1,9 +1,8 @@
 name: chi
 
 on:
-  push:
-    # schedule:
-      # - cron: '12 05 * * *'
+  schedule:
+    - cron: '17 05 * * *'
 
 jobs:
   build:
