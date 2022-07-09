@@ -12,7 +12,7 @@ line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 def main():
     USER_ID = info['USER_ID']
 
-    messages = TextSendMessage(text = 'Yep, successfully migrated')
+    messages = TextSendMessage(text = 'The time is now 5:50 PM')
     line_bot_api.push_message(USER_ID, messages = messages)
 
 
