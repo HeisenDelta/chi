@@ -12,7 +12,7 @@ line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 def main():
     USER_ID = info['USER_ID']
     
-    time_file = open('time.text', 'r')
+    time_file = open('time.txt', 'r')
     time_ = time_file.readline()
 
     messages = TextSendMessage(text = f'The time is now {time_[0]}:{time_[1:]} PM')
